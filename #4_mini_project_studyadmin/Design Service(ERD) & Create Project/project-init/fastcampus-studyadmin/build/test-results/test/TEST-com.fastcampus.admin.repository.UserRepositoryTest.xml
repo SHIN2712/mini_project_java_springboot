@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="사용자 repository 테스트" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-04-25T12:50:18" hostname="WINX-20180518FG" time="0.488">
+  <properties/>
+  <testcase name="delete()" classname="com.fastcampus.admin.repository.UserRepositoryTest" time="0.488">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
+	at com.fastcampus.admin.repository.UserRepositoryTest.delete(UserRepositoryTest.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</failure>
+  </testcase>
+  <system-out><![CDATA[21:50:08.375 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+21:50:08.407 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:50:08.467 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.fastcampus.admin.repository.UserRepositoryTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+21:50:08.498 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.fastcampus.admin.repository.UserRepositoryTest], using SpringBootContextLoader
+21:50:08.505 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.fastcampus.admin.repository.UserRepositoryTest]: class path resource [com/fastcampus/admin/repository/UserRepositoryTest-context.xml] does not exist
+21:50:08.506 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.fastcampus.admin.repository.UserRepositoryTest]: class path resource [com/fastcampus/admin/repository/UserRepositoryTestContext.groovy] does not exist
+21:50:08.506 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.fastcampus.admin.repository.UserRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:50:08.508 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.fastcampus.admin.repository.UserRepositoryTest]: UserRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:50:08.591 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.fastcampus.admin.repository.UserRepositoryTest]
+21:50:08.771 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Administrator\Desktop\1차\서비스 설계 및 프로젝트 생성단계 - ERD 설계\project-init\fastcampus-studyadmin\build\classes\java\main\com\fastcampus\admin\AdminApplication.class]
+21:50:08.774 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.fastcampus.admin.AdminApplication for test class com.fastcampus.admin.repository.UserRepositoryTest
+21:50:09.025 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.fastcampus.admin.repository.UserRepositoryTest]: using defaults.
+21:50:09.027 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+21:50:09.070 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4dc54c4f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7fa99c31, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@404bde85, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7067ac37, org.springframework.test.context.support.DirtiesContextTestExecutionListener@17a72140, org.springframework.test.context.transaction.TransactionalTestExecutionListener@24dc6f91, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3a7d3279, org.springframework.test.context.event.EventPublishingTestExecutionListener@77b63715, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@59b5b582, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e52e9c2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4defee8b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@b2766bc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7f4adbff]
+21:50:09.081 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@82751f0 testClass = UserRepositoryTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7f902917 testClass = UserRepositoryTest, locations = '{}', classes = '{class com.fastcampus.admin.AdminApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3cbb7fb8, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@640dc9df, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3af62ffc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6a7df282], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+21:50:09.154 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2021-04-25 21:50:09.815  INFO 15856 --- [    Test worker] c.f.admin.repository.UserRepositoryTest  : Starting UserRepositoryTest on WINX-20180518FG with PID 15856 (started by Jeongho SHIN in C:\Users\Administrator\Desktop\1차\서비스 설계 및 프로젝트 생성단계 - ERD 설계\project-init\fastcampus-studyadmin)
+2021-04-25 21:50:09.819  INFO 15856 --- [    Test worker] c.f.admin.repository.UserRepositoryTest  : No active profile set, falling back to default profiles: default
+2021-04-25 21:50:11.324  INFO 15856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-25 21:50:11.483  INFO 15856 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139ms. Found 1 JPA repository interfaces.
+2021-04-25 21:50:12.511 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@15db9742
+2021-04-25 21:50:12.587 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2021-04-25 21:50:12.590 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2021-04-25 21:50:12.590 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2021-04-25 21:50:12.591 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2021-04-25 21:50:12.591 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2021-04-25 21:50:12.591 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2021-04-25 21:50:12.592 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2021-04-25 21:50:12.592 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2021-04-25 21:50:12.592 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2021-04-25 21:50:12.592 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2021-04-25 21:50:12.593 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2021-04-25 21:50:12.594 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2021-04-25 21:50:12.594 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2021-04-25 21:50:12.594 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2021-04-25 21:50:12.595 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2021-04-25 21:50:12.595 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2021-04-25 21:50:12.595 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2021-04-25 21:50:12.596 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/study?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+2021-04-25 21:50:12.596 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2021-04-25 21:50:12.597 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2021-04-25 21:50:12.597 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2021-04-25 21:50:12.597 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2021-04-25 21:50:12.598 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2021-04-25 21:50:12.598 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................10
+2021-04-25 21:50:12.599 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2021-04-25 21:50:12.599 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2021-04-25 21:50:12.600 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2021-04-25 21:50:12.601 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2021-04-25 21:50:12.602 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2021-04-25 21:50:12.602 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2021-04-25 21:50:12.603 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2021-04-25 21:50:12.603 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2021-04-25 21:50:12.604 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2021-04-25 21:50:12.604 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2021-04-25 21:50:12.604  INFO 15856 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-25 21:50:12.914 DEBUG 15856 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@793a8b19
+2021-04-25 21:50:12.921  INFO 15856 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-25 21:50:13.021 DEBUG 15856 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2021-04-25 21:50:13.030 DEBUG 15856 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31ef898e
+2021-04-25 21:50:13.039 DEBUG 15856 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70d283b5
+2021-04-25 21:50:13.049 DEBUG 15856 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41e856fb
+2021-04-25 21:50:13.061 DEBUG 15856 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10fd7cfa
+2021-04-25 21:50:13.069 DEBUG 15856 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f732974
+2021-04-25 21:50:13.076 DEBUG 15856 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14b380ae
+2021-04-25 21:50:13.083 DEBUG 15856 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7675d51
+2021-04-25 21:50:13.093 DEBUG 15856 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44e261ca
+2021-04-25 21:50:13.099 DEBUG 15856 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e1b1569
+2021-04-25 21:50:13.100 DEBUG 15856 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2021-04-25 21:50:13.222  INFO 15856 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-25 21:50:13.412  INFO 15856 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2021-04-25 21:50:13.781  INFO 15856 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-04-25 21:50:14.111  INFO 15856 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-25 21:50:15.496  INFO 15856 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-25 21:50:15.516  INFO 15856 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-25 21:50:16.179  WARN 15856 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-25 21:50:17.149  INFO 15856 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-25 21:50:18.005  INFO 15856 --- [    Test worker] c.f.admin.repository.UserRepositoryTest  : Started UserRepositoryTest in 8.831 seconds (JVM running for 13.123)
+2021-04-25 21:50:18.074  INFO 15856 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@82751f0 testClass = UserRepositoryTest, testInstance = com.fastcampus.admin.repository.UserRepositoryTest@5dc4914e, testMethod = delete@UserRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7f902917 testClass = UserRepositoryTest, locations = '{}', classes = '{class com.fastcampus.admin.AdminApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3cbb7fb8, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@640dc9df, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3af62ffc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6a7df282], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@68702e95]; rollback [true]
+2021-04-25 21:50:18.459 DEBUG 15856 --- [    Test worker] org.hibernate.SQL                        : select user0_.id as id1_0_0_, user0_.account as account2_0_0_, user0_.created_at as created_3_0_0_, user0_.created_by as created_4_0_0_, user0_.email as email5_0_0_, user0_.phone_number as phone_nu6_0_0_, user0_.updated_at as updated_7_0_0_, user0_.updated_by as updated_8_0_0_ from user user0_ where user0_.id=?
+Hibernate: select user0_.id as id1_0_0_, user0_.account as account2_0_0_, user0_.created_at as created_3_0_0_, user0_.created_by as created_4_0_0_, user0_.email as email5_0_0_, user0_.phone_number as phone_nu6_0_0_, user0_.updated_at as updated_7_0_0_, user0_.updated_by as updated_8_0_0_ from user user0_ where user0_.id=?
+2021-04-25 21:50:18.485 TRACE 15856 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [4]
+2021-04-25 21:50:18.527  INFO 15856 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@82751f0 testClass = UserRepositoryTest, testInstance = com.fastcampus.admin.repository.UserRepositoryTest@5dc4914e, testMethod = delete@UserRepositoryTest, testException = org.opentest4j.AssertionFailedError: expected: <true> but was: <false>, mergedContextConfiguration = [WebMergedContextConfiguration@7f902917 testClass = UserRepositoryTest, locations = '{}', classes = '{class com.fastcampus.admin.AdminApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3cbb7fb8, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@640dc9df, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3af62ffc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6a7df282], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

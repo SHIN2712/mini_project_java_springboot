@@ -1,0 +1,4 @@
+com/fastcampus/admin/AdminApplicationTests.java
+ com.fastcampus.admin.AdminApplicationTests
+com/fastcampus/admin/repository/UserRepositoryTest.java
+ com.fastcampus.admin.repository.UserRepositoryTest
